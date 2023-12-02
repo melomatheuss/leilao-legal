@@ -13,9 +13,10 @@ export default function BasicCard() {
       </div>
       <Button>
         <p>
-          Lances!!!
+          Lances!!
         </p>
       </Button>
     </Card>
   )
 }
+

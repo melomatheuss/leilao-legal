@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Carousel } from "flowbite-react";
 
+
 const imgs = [
   {
     src: "https://flowbite.com/docs/images/carousel/carousel-1.svg",

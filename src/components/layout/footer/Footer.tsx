@@ -14,17 +14,17 @@ export const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
-              <FlowbiteFooter.Title title="about" />
+              <FlowbiteFooter.Title title="Feito com" />
               <FlowbiteFooter.LinkGroup col>
                 <FlowbiteFooter.Link href="#">Flowbite</FlowbiteFooter.Link>
                 <FlowbiteFooter.Link href="#">Tailwind CSS</FlowbiteFooter.Link>
               </FlowbiteFooter.LinkGroup>
             </div>
             <div>
-              <FlowbiteFooter.Title title="Follow us" />
+              <FlowbiteFooter.Title title="Contatos" />
               <FlowbiteFooter.LinkGroup col>
                 <FlowbiteFooter.Link href="#">Github</FlowbiteFooter.Link>
-                <FlowbiteFooter.Link href="#">Discord</FlowbiteFooter.Link>
+                <FlowbiteFooter.Link href="#">Linkedln</FlowbiteFooter.Link>
               </FlowbiteFooter.LinkGroup>
             </div>
             <div>
@@ -42,7 +42,7 @@ export const Footer = () => {
         </div>
         <FlowbiteFooter.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <FlowbiteFooter.Copyright by="Flowbite™" href="#" year={2022} />
+          <FlowbiteFooter.Copyright by="Matheus Melo" href="#" year={2023} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <FlowbiteFooter.Icon href="#" icon={BsFacebook} />
             <FlowbiteFooter.Icon href="#" icon={BsInstagram} />

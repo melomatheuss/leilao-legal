@@ -6,8 +6,8 @@ export async function GET(request: Request) {
 
     const res = await client.user.create({
         data:{
-            name: "Rosialdo",
-            email: "rosialdo@exemple.com"
+            name: "matheus",
+            email: "matheus@exemple.com"
         }
     })
     
